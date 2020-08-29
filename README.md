@@ -1,0 +1,2 @@
+# Smart-Medicare
+This is a webapp based on MEN(MongoDB,ExpressJS and NodeJS) where a person signs up for the first time and provides all his medical history. Further on every treatment this database is updated either by the hospital(to be implemented) or by the patient himself.Using this we aim at creating a central database for a particular country so that the medical wellness of the country could be improved.
