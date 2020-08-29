@@ -1,0 +1,19 @@
+<%- include ("partials/header.ejs") %>
+<h1>Sign Up form
+<br>
+<br>
+<form class="register" action="/register" method="POST" >
+    <label><b>Name:*</b></label><br>
+    <input class="name" id="name" type="text" name="Name" placeholder="Full Name" required autocomplete="on"><br>
+    <label><b>Username:*</b></label><br>
+    <input class="username" id="name" type="username" name="username" placeholder="UserName" required autocomplete="on"><br>
+    <label><b>Password:*</b></label><br>
+    <input class="password" id="name"  type="password" name="password" placeholder="Password" required="on"><br>
+    <label><b>Re-type Password:*</b></label><br>
+    <input class="password" id="name" type="password" name="password" placeholder="Password" required="on"><br>
+    <br>
+    <button type="submit" class="button">SUBMIT</button>
+</form> 
+</h1>
+
+<%- include ("partials/footer.ejs") %>
