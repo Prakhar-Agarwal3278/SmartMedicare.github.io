@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+
+</head>
+<body>
+  <a  class="gotopbtn" href="#"><i class="fa fa-arrow-up"><B>TOP</B></i></a>
+
+  
+
+  <h1><b><center> General Patient Information<i class="fa fa-hospital-o"></i></center></b></h1>
+  <p><center><b>* Field is Mandatory</b></center></p>
+  <div class="register">
+  <form method="post" id="register" action="">
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient Name:*</b></label><br>
+    <input type="text" name="name" id="name" placeholder="Enter Your name" required autocomplete="on"><br><br>
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient Height (cm's)*:</b></label><br>
+    <input type="number" name="height" id="num" placeholder="Enter Your Height (in cm's)" size="4" required autocomplete="on"><br><br>
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient Weight (kg's)*:</b></label><br>
+    <input type="number" name="weight" id="num" placeholder="Enter Your Weight (in kg's)" size="4" required autocomplete="on"><br><br>
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient DOB:* <i class="fa fa-calendar" aria-hidden="true"></i></b></label><br>
+
+    <input type="date" name="dob" id="num" required="This field is required"><br><br>
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient Email Id:*</b></label><br>
+    <input type="email" name="email" id="name" placeholder="Enter Your Email Id" required="This field is required"><br><br>
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient Gender:*</b></label><br>
+    <select  id="name" required="This field is required">
+      <option></option>
+      <option>Male </option>
+      <option>Female </option>
+      <option>Others</option>
+    </select> <br><br>
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Patient Mobile Number:*</b></label><br>
+    <select id="ph" >
+      <option>+91</option>
+      <option>+92</option>
+      <option>+93</option>
+      <option>+94</option>
+      <option>+95</option>
+    </select> 
+      <input type="number" name="MNum" id="num" placeholder="Enter Your Mobile Number"><br><br>
+    <label><b> <i class="fa fa-arrow-right" aria-hidden="true"></i> Reason For Seeing The Doctor:*</b></label><br>
+    <textarea class="form-control" rows="4" placeholder="MESSAGE" id="name" required="This field is required"></textarea><br><br>
+
+    <p>________________________________________________________________</p>
+
+    <h1><b>Patient Medical History</h1>
+    <p>_________________________________________________________________</p><br><br>
+
+      <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Please List Any Drug Allergies</b></label><br>
+          <textarea class="form-control" rows="4" placeholder="drug allergies" id="namep"></textarea><br><br>
+
+<p> <b><i class="fa fa-upload" aria-hidden="true"></i>Please Upload a File:</b></p>
+
+
+  <input type="file" id="myFile" name="filename[]"  multiple="">Choose File<br><br>
+  <input type="submit" value="Done" id="sub"><br><br><br>
+
+
+
+
+        <div class="center">
+
+          <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Have You Ever Had (Please check all that apply)</b> </label><br>
+          <input type="checkbox" name="xd" value="xd" tabindex="1">  Anemia<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="2">  Asthma<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="3">  Arthritis<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="4">    Bleeding Disorders<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="5">  Cancer<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="6">  Diabetes<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="7">  Digestive Problems<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="8">  Emphysema<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="9">  Emotional Disorder<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="10">  Epilesy Seizures<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="11">  Fainting Spells<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="12">  Gallstones<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="13">  Gout<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="14">  Heart Disease<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="15">  Heart Attack<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="16">  High Blood Pressure<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="17">  Hepatitis<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="18">  Kidney Disease<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="19">  Liver Disease<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="20">  Lung Disease<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="21">  Neurological Disorders<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="22">  Rheumatic Fever<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="23">  Sleep Apnea<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="24">  Thyroid Problems<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="25">  Tuberculosis<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="26">  Ulcerative Colitis<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="27">  Ulcer Disease<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="28">  Use a C-PAP machine<br>
+          <input type="checkbox" name="xd" value="xd" tabindex="29">  Venereal Disease<br><br>
+        </div>
+
+
+
+
+
+        <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Other Illnesses (Please Specify):</b></label><br>
+          <textarea class="form-control" rows="6" placeholder="other illnesses" id="namep"></textarea><br><br><br>
+
+
+
+
+        <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Please List Any Operations And Dates Of Each:</b></label><br>
+          <textarea class="form-control" rows="6" placeholder="Operations and Dates" id="namep"></textarea><br><br><br>
+
+
+        <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Please List Your Current Medications</b></label><br>
+          <textarea class="form-control" rows="6" placeholder="Current Medications" id="namep"></textarea><br><br><br>
+
+
+
+
+
+
+
+    <p>___________________________________________________________</p>
+
+    <h1><b>Healthy & Unhealthy Habits</b></h1>
+    <p>___________________________________________________________</p><br><br>
+
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Exercise</b></label><br>
+    <select  id="name">
+      <option></option>
+      <option>Never</option>
+      <option>1-2 Days</option>
+      <option>3-5 Days</option>
+      <option>5-10 Days</option>
+      <option>10+ Days</option>
+    </select> <br>
+
+
+
+    <label><b><i class="fa fa-circle" aria-hidden="true"></i> Please specify</b></label><br>
+    <textarea class="form-control" rows="6" placeholder="Number of Days" id="name"></textarea><br><br>
+
+
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Eating Following A Diet</b></label><br>
+    <select id="name">
+      <option></option>
+      <option>I have a loose diet</option>
+      <option>I have a strict diet</option>
+      <option>I donot have a diet plan</option>
+    </select><br><br>
+
+
+
+    <label><b> <i class="fa fa-arrow-right" aria-hidden="true"></i> Alcohol Consumption</b></label><br>
+    <select id="name">
+      <option></option>
+      <option>I donot drink</option>
+      <option>1-2 glasses/day</option>
+      <option>3-4 glasses/day</option>
+      <option>5+ glasses/day</option>
+    </select><br>
+    <label><b><i class="fa fa-circle" aria-hidden="true"></i> Please specify</b></label><br>
+    <textarea class="form-control" rows="6" placeholder="Number of Glasses" id="name"></textarea><br><br>
+
+
+
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Caffeine Consumption</b></label><br>
+    <select id="name">
+      <option></option>
+      <option>I donot use caffeine</option>
+      <option>1-2 cups/day</option>
+      <option>3-4 cups/day</option>
+      <option>5+ cups/day</option>
+    </select><br>
+    <label><b><i class="fa fa-circle" aria-hidden="true"></i> Please specify</b></label><br>
+    <textarea class="form-control" rows="6" placeholder="Number of Cups" id="name"></textarea><br><br>
+
+
+
+
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Do You Smoke?<b></label><br>
+    <select id="name">
+      <option></option>
+      <option>No</option>
+      <option>1 pack/day</option>
+      <option>2-3 packs/day</option>
+      <option>3+ packs/day</option>
+    </select><br>
+
+    <label><b><i class="fa fa-circle" aria-hidden="true"></i> Please specify</b></label><br>
+    <textarea class="form-control" rows="6" placeholder="Number of Packs" id="name"></textarea><br><br>
+
+
+
+
+    <label><b><i class="fa fa-arrow-right" aria-hidden="true"></i> Include other comments regarding your Medical History</b></label><br>
+          <textarea class="form-control" rows="6" placeholder="Medical History" id="namep"></textarea><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+          
+
+      
+
+      
+
+
+
+
+
+    
+
+    <input type="submit" value="SUBMIT" id="sub">
+
+      
+    </div>
+
+
+    
+  </form>
+</div>
+</body>
+</html>
