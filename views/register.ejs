@@ -1,5 +1,5 @@
 <%- include ("partials/header.ejs") %>
-<h1>Sign Up form
+<h1>REGISTER
 <br>
 <br>
 <form class="register" action="/register" method="POST" >
@@ -7,10 +7,25 @@
     <input class="name" id="name" type="text" name="Name" placeholder="Full Name" required autocomplete="on"><br>
     <label><b>Username:*</b></label><br>
     <input class="username" id="name" type="username" name="username" placeholder="UserName" required autocomplete="on"><br>
+     <label><b>Contact #:*</b></label><br>
+    <select id="ph" >
+      <option>+91</option>
+      <option>+92</option>
+      <option>+93</option>
+      <option>+94</option>
+      <option>+95</option>
+    </select> 
+      <input type="text" name="MNum"  id="num" placeholder="Enter Your Mobile Number" maxlength="10" required="on"><br>
     <label><b>Password:*</b></label><br>
     <input class="password" id="name"  type="password" name="password" placeholder="Password" required="on"><br>
     <label><b>Re-type Password:*</b></label><br>
     <input class="password" id="name" type="password" name="password" placeholder="Password" required="on"><br>
+    <br>
+    
+    <center>
+    <div class="g-recaptcha" data-sitekey="6LcQVsUZAAAAAH1VnyJqhtPuT4c7e8g2qwDCHCwO"></div>
+    </center>
+    
     <br>
     <button type="submit" class="button">SUBMIT</button>
 </form> 
