@@ -31,7 +31,9 @@ h1{
 
 }
 .register{
-	background: #2d85b0;
+	background:rgba(0,0,0,0.5);
+	border:2px solid white;
+	
 	width: 600px;
 	margin: 0px 0px 0px 470px;
 	color: black;
