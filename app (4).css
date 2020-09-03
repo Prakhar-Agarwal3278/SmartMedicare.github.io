@@ -1,0 +1,779 @@
+/**{*/
+/*	margin:auto;*/
+/*	padding: auto;*/
+/*}*/
+
+
+body{
+
+	background-image: url(https://news.usc.edu/files/2020/06/covid_vaccine_stock.jpg);
+  	background: #cccccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+		/*background-image: url(https://www.stchristophershospital.com/Images/Exterior%20hospital%20photo.jpg);*/
+
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 5px;
+	background:red;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+
+}
+h1{
+	text-align: center;
+	padding: 20px;
+
+}
+.register{
+	background: #000000;
+	background: rgba(0, 0, 0, 0.87);
+	width: 600px;
+	margin: auto;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#register{
+	margin-left: 50px;
+}
+.lable{
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+
+}
+#name{
+	width:300px;
+	height: 30px;
+	border:none;
+	border-radius:3px;
+	outline:0;
+	padding:7px;
+	color:black;
+}
+#ph{
+	width: 65px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0px;
+	color:black;
+}
+#num{
+	width: 250px;
+	padding: 7px;
+	border:none;
+	border-radius: 3px;
+	outline: 0px;
+	color:black;
+
+}
+#sub{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border:none;
+	border-radius: 3px;
+	outline: 0;
+}
+#namep{
+	width:500px;
+	height: 100px;
+	border:none;
+	border-radius:3px;
+	outline:0;
+	padding:7px;
+}
+input[type="checkbox"]
+{
+	position: relative;
+	top: 0;
+	width: 20px;
+	height: 20px;
+}
+input[type="checkbox"]:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 4px solid  red;
+
+}
+.button {
+  transition-duration: 0.4s;
+  width:150px;
+  color:black;
+}
+
+.button:hover {
+  background-color: #008CBA; /* Green */
+  color: white;
+  transition-duration:1.8s;
+}
+.footer{
+	color:white;
+}
+
+.btn btn-navbar{
+	color:black;
+}
+
+
+.footer2{
+	color:red;
+}
+
+.dropdown{
+	width:45px;
+	padding: 0px;
+	margin:0px 2px;
+	transition-duration:1.8s;
+}
+.glyphicon-menu-hamburger {
+  font-size: 25px;
+  color:white;
+  	transition-duration:1.8s;
+  
+}
+
+.glyphicon-menu-hamburger:hover{
+	color: #4183c4;
+	transition-duration:1.8s;
+}
+
+.navbar{
+	margin: 0px 10px 10px 10px;
+	padding-right: 15px;
+	padding-left: 10px;
+	background:#000000;
+	background: rgba(0, 0, 0, 0.87);
+}
+
+.navbar-inverse{
+	background:#000000;
+	background: rgba(0, 0, 0, 0.87);
+}
+.navbar-brand{
+	font-size:30px;
+
+}
+
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #4183c4;
+  transition-duration:1.8s;
+}
+
+h1{
+	font-size:40px;
+}
+
+
+.new .new1{
+	color:white;
+		transition-duration: 1s;
+}
+
+.new1:hover{
+	color:#4183c4;
+	font-size: 25px;
+	transition-duration: 1s;
+}
+
+
+/*.dropdown-menu li{*/
+/*		position: relative;*/
+/*	}*/
+
+/*.dropdown-menu > li:hover > .submenu{*/
+/*		display: block;*/
+/*}*/
+
+
+/*.dropdown-menu> li >.submenu{ */
+/*	display: none;*/
+/*	position: absolute;*/
+/*	left:100%; */
+/*	top:-7px;*/
+/*}*/
+	
+/*.dropdown-menu .submenu:after{*/
+/*		border-top: .3em solid transparent;*/
+/*	    border-right: 0;*/
+/*	    border-bottom: .3em solid transparent;*/
+/*	    border-left: .3em solid;*/
+/*	}*/
+
+/*.hides{*/
+/*		z-index: 2;*/
+/*    font-size : 11pt;*/
+/*    margin-top : 72px;*/
+/*top : -20px;*/
+/*    font-weight : normal;*/
+/*}*/
+
+.dropdown-menu{
+	padding: 15px;
+	background-color:rgba(0,0,0,.87);
+	color:black;
+	float:none;
+	padding-right:20px;
+	font-size:20px;
+	transition-duration: 1.8s;
+	text-align: center;
+	font-weight: 500;
+
+	
+}
+
+.hides{
+	width:290px;
+	/*padding-top: 0px;*/
+
+	font-family: sans-serif;
+/*background-color:rgba(0,0,0,.87);*/
+	font-size:20px;
+	/*background-color:white;*/
+	transition-duration: 1.8s;
+	text-align: center;
+	display: block;
+    padding: 3px 20px;
+    /*clear: both;*/
+    /*position:relative;*/
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: white;
+ 
+    /*margin-left:20px;*/
+    /*margin-right:200px;*/
+    /*white-space: nowrap;*/
+    	/*line-height: 1.42857143;*/
+	padding:3px 25px;
+	/*text-align: center;*/
+	
+	
+}
+.hides1{
+	display:none;
+	/*margin-right:500px;*/
+	/*padding: 3px 20px;*/
+	background-color:rgba(0,0,0,.87);
+	color:white;
+	width:auto;
+	height:100px;
+	position:fixed;
+	margin-right:200px;
+
+}
+
+.hides:hover + .hides1{
+	display:block;
+	/*position:fixed;*/
+	background-color:black;
+	/*overflow: hidden; */
+	transition-duration: 1.8s;
+	text-align: center;
+    padding: 3px 25px;
+    clear: both;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: white;
+    	/*margin-right:555555550px;*/
+    white-space: nowrap;
+    min-width: 160px;
+    /*margin-right:500px;*/
+
+}
+
+/*.hides {*/
+/*	line-height: 1.42857143;*/
+/*	padding:3px 25px;*/
+/*	text-align: center;*/
+/*	margin-right:30px;*/
+/*}*/
+.hides1:hover{
+	display:block;
+	/*position:fixed;*/
+	/*overflow: hidden;*/
+	line-height: 1.42857143;
+	background-color:black;
+	padding: 3px 25px;
+	white-space: nowrap;
+	font-weight: bolder;
+	text-align: center;
+	color:white;
+	min-width: 160px;
+	transition-duration:1.8s;
+	 /*margin-right:100px;*/
+	 /*margin-right:500px;*/
+}
+.regular{
+		width:300px;
+	/*padding-top: 0px;*/
+	color:white;
+	font-family: sans-serif;
+	/*background-color:rgba(0,0,0,.87);*/
+	font-size:20px;
+ 		transition-duration: 1.8s;
+	text-align: center;
+	transition-duration: background-color 1.8s ;
+    padding: 3px 20px;
+    /*clear: both;*/
+    font-weight: 600;
+    line-height: 1.42857143;
+    /*position:relative;*/
+   
+    /*margin-right:200px;*/
+    /*white-space: nowrap;*/
+	padding:3px 25px;
+	margin-right:50px;
+	padding-left: 20px;
+		/*position:fixed;*/
+		
+
+}
+
+.regular:hover{
+	/*background-color:white;*/
+	width:103%;
+	transition-duration: 1.8s;
+	color:black;
+
+	
+}
+
+.hides:hover{
+	background-color:white;
+	color:black;
+	text-align:center;
+	width:91%;
+}
+
+.hides:hover::after{
+	background-color:white;
+	color:black;
+	text-align:center;
+	width:91%;
+}
+.dropdown-menu>li>a{
+	color:white;
+
+	text-align:center;
+}
+
+
+.dropdown-menu>li>a:hover{
+	background-color:white;
+	transition-duration: 1.8s;
+}
+
+.dropdown-menu>li>a{
+background: #000000;
+background: rgba(0, 0, 0, 0.87);
+background: transparent;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000,endColorstr=#4c000000);/*IE 5.5-7*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000,endColorstr=#4c000000)";/*IE8*/
+zoom: 1;
+	transition-duration: 1.8s;
+}
+
+.bullet1{
+	padding: 10px;
+	color:white;
+	font-weight:normal;
+}
+
+.bullet1:hover{
+	padding: 10px;
+	color:#4183c4;
+	font-weight:bold;
+}
+
+/*	font-family: sans-serif;*/
+/*}*/
+.contact{
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*background:url(https://image.freepik.com/free-photo/closeup-flu-vaccine-bottle-syringe-with-needle-medical-background_103324-99.jpg);*/
+	background-size: cover;
+
+}
+.contact .content{
+	max-width: 800px;
+	text-align: center;
+
+}
+.contact .content h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: black;
+	/*text-align:center;*/
+	/*margin-left:300px;*/
+
+}
+.contact .content p{
+	font-weight: 300;
+	color: #fff;
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px ;
+
+}
+.container .contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+.container .contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+
+}
+.container .contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	/*background:#fff;*/
+
+	
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+
+}
+.container .contactInfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: black;
+	flex-direction: column;
+	font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+	font-weight: 500;
+	color: white;
+
+}
+
+.container .contactInfo .box .text h3:hover{
+font-size:30px;
+	color: #008CBA;
+	/*background:#000000;*/
+	/*background: rgba(0, 0, 0, 0.87);*/
+
+}
+
+.container .contactInfo .box .icon:hover{
+	font-size: 30px;
+	color: #008CBA;
+	background:#000000;
+	background: rgba(0, 0, 0, 0.87);
+	
+
+}
+
+.contactForm{
+	width: 40%;
+	padding: 40px ;
+	/*background: #fff;*/
+
+}
+
+.contactForm h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.contactForm .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox  textarea
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border:none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+/* .contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+*/
+.contactForm .inputBox  input:focus ~ span,
+.contactForm .inputBox  input:valid ~ span,
+.contactForm .inputBox  textarea:focus ~ span,
+.contactForm .inputBox  textarea:valid ~ span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px );
+}
+
+.contactForm .inputBox  input[type="submit"]
+{
+	width: 100px;
+	background:#00bcd4;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+@media (max-width: 991px)
+{
+	.contact
+	{
+		padding: 50px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.container .contactInfo{
+		margin-bottom: 40px;
+	}
+	.container .contactInfo,
+	.contactForm
+	{
+		width: 100%;
+	}
+
+/*{	font-family: sans-serif;*/
+/*}*/
+}
+
+.contact{
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*background:url(https://image.freepik.com/free-photo/closeup-flu-vaccine-bottle-syringe-with-needle-medical-background_103324-99.jpg);*/
+	background-size: cover;
+
+}
+.contact .content{
+	max-width: 800px;
+	text-align: center;
+
+}
+.contact .content h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: black;
+
+}
+.contact .content p{
+	font-weight: 300;
+	color: #fff;
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px ;
+
+}
+.container .contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+.container .contactInfo .box{
+	position: relative;
+	padding: auto;
+	display: flex;
+	background:#000000;
+	background: rgba(0, 0, 0, 0.87);
+	border: 2px solid white;
+	margin: 10px;
+	width:420px;
+	/*margin-bottom:10px;*/
+
+}
+.container .contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	background:#fff;
+	margin-left: 20px;
+
+	
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+
+}
+.container .contactInfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: white;
+	flex-direction: column;
+	font-weight: 300;
+	margin-bottom:20px;
+}
+
+.container .contactInfo .box .text p:hover{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: blue;
+	flex-direction: column;
+	font-weight: 300;
+	/*background:#000000;*/
+	/*background: rgba(0, 0, 0, 0.87);*/
+	/*padding:auto;*/
+}
+
+.container .contactInfo .box .text h3{
+	font-weight: 500;
+	color: white;
+
+}
+
+.contactForm{
+	width: 40%;
+	padding: 40px ;
+	/*background: #fff;*/
+
+}
+
+.contactForm h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.contactForm .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox  textarea
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border:none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+/* .contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+*/
+.contactForm .inputBox  input:focus ~ span,
+.contactForm .inputBox  input:valid ~ span,
+.contactForm .inputBox  textarea:focus ~ span,
+.contactForm .inputBox  textarea:valid ~ span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px );
+}
+
+.contactForm .inputBox  input[type="submit"]
+{
+	width: 100px;
+	background:white;
+	color: black;
+	border:none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	transition-duration:1.8s;
+}
+
+.contactForm .inputBox  input[type="submit"]:hover
+{
+	width: 100px;
+	background:#00bcd4;
+	color: white;
+	border:none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	transition-duration:1.8s;
+}
+@media (max-width: 991px)
+{
+	.contact
+	{
+		padding: 50px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.container .contactInfo{
+		margin-bottom: 40px;
+	}
+	.container .contactInfo,
+	.contactForm
+	{
+		width: 100%;
+	}
+
+}
+
