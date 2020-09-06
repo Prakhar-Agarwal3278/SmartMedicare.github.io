@@ -1,0 +1,115 @@
+<%- include ("partials/header.ejs") %>
+<style>
+            body{
+            		/*background: url(/stylesheet/bgcnt.gif) ;*/
+                	background: url(/stylesheet/contact.gif) ;
+                	height:20px;
+  	                background-color: #cccccc;
+	                background-size:30%;
+	                /*margin-top:100px;*/
+	                background-repeat:no-repeat;
+	                justify-content:space-around;
+	                /*background-position: bottom 30px;*/
+	                /*background-attachment: fixed;*/
+	                background-position: 400px 300px;
+
+        }
+        </style>
+	<section class="contact">
+		<br>
+		<br>
+		<div class="content">
+			<img src="/stylesheet/contactus.gif" style="width:456px;height:120px;"></img>
+			<!--<h2><b> -->
+			<!--<i class="fa fa-phone" aria-hidden="true"></i> </b></h2>-->
+		</div>
+		<br>
+		<br>
+			<div class="container">
+				<div class="contactInfo">
+					<div class="myDetails">
+					<div class="box">
+
+						<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+						<div class="text">
+							<h3><b> Postal Address </b></h3>
+							<p><b>.............</b></p><br>
+						</div>
+					</div>
+
+					<div class="box">
+
+						<div class="icon"><i class="fa fa-envelope-open" aria-hidden="true"></i></div>
+						<div class="text">
+							<h3><b> Email</b></h3><br>
+							<p><b>khushi.04092000@gmail.com</b></p>
+							<p><b>prkh.agarwal12@gmail.com</b></p><br>
+						</div>
+					</div>
+					</div>
+
+
+
+					<div class="box">
+
+						<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+						<div class="text">
+							<h3><b> Phone</b></h3><br>
+							<p><b>+91-7060003265</b></p>
+							<p><b>+91-8057613352</b></p><br>
+						</div>
+					</div>
+
+
+
+
+
+
+				</div>
+
+
+				<div class="contactForm register1">
+					<form>
+						<h3><b>Write us for any queries or suggestion:</b></h3>
+						<br>
+						<div class="inputBox">
+							<span>First Name*</span><br>
+							<input id="name" type="text" name="fname" required="required" placeholder=" Enter Your First Name">
+							
+						</div>
+
+						<div class="inputBox">
+							<span>Last Name*</span><br>
+							<input id="name" type="text" name="lname" required="required" placeholder="Enter Your Last Name">
+							
+						</div>
+
+						<div class="inputBox">
+							<span>Email*</span><br>
+							<input id="name" type="email" name="email" required="required" placeholder="Enter Your Email Id">
+							
+						</div>
+						<div class="inputBox">
+							<span>Subject of this Message*</span><br>
+							<input id="name" type="text" name="data" placeholder="Subject of your Message" required="required">
+							
+						</div>
+						<div class="inputBox">
+							<span>Type Your Message Here*</span><br>
+							<textarea id="name" required="required" rows="5" placeholder="Type Your Message"></textarea>
+							
+						</div>
+						<br>
+						<div class="inputBox">
+							<input type="submit" name="" value="SEND">
+						</div>
+
+
+
+					</form>
+				</div>
+			</div>
+
+
+	</section>
+	<%- include ("partials/footer.ejs") %>
